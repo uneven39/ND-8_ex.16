@@ -1,0 +1,20 @@
+{
+  "name": "nd-8_ex.16",
+  "version": "1.0.0",
+  "description": "ND-8 Домашнее задание к лекции 5.1 «Тестируем сервер, используя Mocha»",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "sinon": "^4.1.2"
+  }
+}
