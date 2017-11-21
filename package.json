@@ -4,6 +4,7 @@
   "description": "ND-8 Домашнее задание к лекции 5.1 «Тестируем сервер, используя Mocha»",
   "main": "index.js",
   "scripts": {
+    "serve": "node server/index.js",
     "test": "mocha"
   },
   "author": "",
@@ -14,7 +15,9 @@
   },
   "devDependencies": {
     "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
     "mocha": "^4.0.1",
-    "sinon": "^4.1.2"
+    "sinon": "^4.1.2",
+    "supertest": "^3.0.0"
   }
 }
